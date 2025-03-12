@@ -29,11 +29,13 @@
     display: inline-block;
     color: dodgerblue;
     text-decoration: none;
-    border: 3px solid dodgerblue;
     font-size: 20px;
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    line-height: 1.2em;
+    border: 0,1875em solid dodgerblue; 
+    padding: 0,625em;
+    padding-left: 1,875em;
+    padding-right: 1,875em;
+    border-radius: 1,5652em;
   }
   
   img {
@@ -42,3 +44,14 @@
     margin-left: 5%;
     margin-top: 7%;
   }
+
+  /* Take your pixel value
+Divide by 16 (the default browser font size)
+That's your em value
+
+Quick conversion examples:
+
+16px = 1em
+8px = 0.5em
+24px = 1.5em
+32px = 2em
